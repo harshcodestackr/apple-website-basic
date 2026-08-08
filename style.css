@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 70px;
+    background-color:white;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+    height:70px;
+    width: 100%;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+    font-weight: 400;
+}
+#main{
+    width: 100%;
+    height: auto;
+}
+.hero-section{
+    width: 100%;
+    height:850px;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(./hero-iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 10px;
+}
+.hero-section h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.hero-section h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+.hero-btn button{
+    font-size: 20px;
+    padding: 13px 15px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: royalblue;
+    font-weight: 400;
+}
+.hero-btn .btn2{
+    background-color: transparent;
+    border: 1px solid royalblue;
+    color: royalblue;
+}
+.hero-btn .btn2:hover{
+    color: white;
+    background-color: royalblue;
+}
+#herosection2{
+    background-image:url(./hero_back_to_school_2026.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+#herosection3{
+    background-image: url(./hero_macbook_air.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.two-column{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    gap: 10px;
+    height: auto;
+}
+#herosection4{
+    height: 600px;
+    background-image: url(./promo_ipad_air.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: top; */
+}
+#herosection4 h1{
+    font-size: 35px;
+}
+#herosection4 h4{
+    font-size: 25px;
+}
+#herosection4 button{
+      font-size: 18px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: royalblue;
+    font-weight: 400;
+}
+
