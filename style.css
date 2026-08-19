@@ -59,7 +59,7 @@ html,body{
 }
 .hero-btn button{
     font-size: 20px;
-    padding: 13px 15px;
+    padding: 10px 20px;
     border-radius: 50px;
     border: none;
     color: white;
@@ -91,31 +91,47 @@ html,body{
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-around;
     gap: 10px;
     height: auto;
 }
-#herosection4{
+.herosection4{
     height: 600px;
     background-image: url(./promo_ipad_air.jpg);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: top; */
 }
-#herosection4 h1{
+.herosection4 h1{
     font-size: 35px;
 }
-#herosection4 h4{
+.herosection4 h4{
     font-size: 25px;
 }
-#herosection4 button{
-      font-size: 18px;
-    padding: 10px;
+.herosection4 button{
+    font-size: 18px;
+    padding: 10px 20px;
     border-radius: 50px;
     border: none;
     color: white;
     background-color: royalblue;
     font-weight: 400;
 }
-
+.herosection4 .btn2{
+    background-color: transparent;
+    border: 1px solid royalblue;
+    color: royalblue;
+}
+.img1{
+    background-image: url(./promo_ipad_air.jpg);
+}
+.img2{
+    background-image: url(./promo_apple_at_work.jpg);
+}
+.img3{
+    background-image: url(./promo_apple_watch_series_11.jpg);
+}
+.img4{
+    background-image: url(./promo_macbook_pro.jpg);
+    color: white;
+}
